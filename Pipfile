@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[dev-packages]
+
+[packages]
+djangorestframework = "*"
+django = "*"
+pyjwt = "*"
+django-cors-headers = "*"
+pyotp = "*"
+google-auth = "*"
+update = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+html5lib = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
